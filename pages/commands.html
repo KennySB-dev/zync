@@ -145,6 +145,14 @@
           <h2>Moderation</h2>
           <div>
             <ul>
+              <li class="collapsible">Announce</li>
+              <div class="cmdCollapse">
+                Description : Announce a message in a certain channel!
+                <br>
+                Usage : <span class="codeBlock">/announce <Channel> <Embed Title> <Embed Description> </span>
+                <br>
+                Note : You cannot use headers, so #. ## or ### in the embed.
+              </div>
               <li class="collapsible">Transcript</li>
               <div class="cmdCollapse">
                 Description : Get a transcript of the channel the command is ran in.
@@ -161,37 +169,33 @@
                 <br>
                 Note : Run the command again if it doesn't load the first time.
               </div>
-              <li class="collapsible">Ban</li>
+              <li class="collapsible">Un/Ban</li>
               <div class="cmdCollapse">
-                Description : Unban a user.
+                Description : Ban a user.
                 <br>
                 Usage : <span class="codeBlock">/ban add <Member> [reason] </span>
                 <br>
-                Description : Ban a user.
+                Description : Unban a user.
                 <br>
                 Usage : <span class="codeBlock">/ban remove <User ID> </span>
                 <br>
               </div>
-              <li class="collapsible">Character</li>
+              <li class="collapsible">Kick</li>
               <div class="cmdCollapse">
-                Description : Let's you search information about the characters listed in Anilist.
+                Description : Kick a user!
                 <br>
-                Usage : <span class="codeBlock">dh character < character name> </span>
+                Usage : <span class="codeBlock">/kick <User> <Reason> </span>
                 <br>
-                Example : <span class="codeBlock">dh character light yagami</span>
-                <br>
-                Note : All the characters are not availabe only those ones at Anilist.co. So, if you want you can add it
-                there.
               </div>
-              <li class="collapsible" id="sfw">Sauce (Beta)</li>
+              <li class="collapsible">Timeout</li>
               <div class="cmdCollapse">
-                Description : Let's you search the source of the post image.
+                Description : Timeout a member!
                 <br>
-                Usage : <span class="codeBlock">dh sauce < link> </span>
+                Usage : <span class="codeBlock">/timeout <User> <Reason> <Duration> </span>
                 <br>
-                Aliases : <span class="codeBlock">imagesearch</span>
-                <br>
-
+                Note : The duration HAS to be in minutes, for a good time to minutes
+                  calculator <a href="https://www.inchcalculator.com/time-to-minutes-calculator/>click here</a>.
+              </div>
             </ul>
           </div>
 
