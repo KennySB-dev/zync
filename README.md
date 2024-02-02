@@ -1,1 +1,1 @@
-## https://kenny.is-a.dev/zync
+## https://zync.kenny.is-a.dev
